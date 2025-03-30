@@ -19,5 +19,9 @@ Este repositório reúne uma coleção de notebooks de **Inteligência Artificia
 - [`recommendation-systems/`](recommendation-systems/)  
   Sistemas de recomendação com algoritmos como SVD, voltados para filtragem colaborativa e sugestões personalizadas.
 
+  - [`ecommerce-svd-tfidf/`](recommendation-systems/ecommerce-svd-tfidf/)  
+    Projeto de recomendação híbrida para **e-commerce**, combinando **SVD** (filtragem colaborativa) com **TF-IDF** (filtragem baseada em conteúdo).  
+    Inclui dataset fictício e abordagem robusta para recomendação mesmo em cenários de _cold start_.
+
 - [`deep-learning/`](deep-learning/)  
   Projetos com **redes neurais profundas**, incluindo CNNs para reconhecimento de imagens e outras arquiteturas.
