@@ -7,7 +7,7 @@ Este repositório reúne uma coleção de notebooks de **Inteligência Artificia
 - [`classification/`](classification/)  
   Notebooks focados em tarefas de **classificação supervisionada**, como regressão logística, árvores de decisão, etc.
 
-  - [`cart-abandonment-xgboost/`](classification/cart-abandonment-xgboost/)  
+  - [`cart-abandonment-xgboost/`](classification/xgboost-cart-abandonment/)  
     Predição de **abandono de carrinho em e-commerce** utilizando o algoritmo **XGBoost**.  
     O projeto simula dados de comportamento do usuário (como tempo na página, cliques e visualizações de produtos) e aplica um modelo de classificação supervisionada para prever se um cliente irá ou não concluir a compra.  
     Inclui tratamento de dados em JSON, encoding de variáveis categóricas, explicação passo a passo do pipeline de machine learning e função customizada para predição em tempo real com novos dados.
