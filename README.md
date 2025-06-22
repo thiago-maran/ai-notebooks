@@ -32,8 +32,8 @@ Este repositório reúne uma coleção de notebooks de **Inteligência Artificia
   Projetos com foco em **redes neurais profundas**, aplicadas a diferentes domínios como **visão computacional (CNNs)**, **séries temporais (LSTM, GRU)** e outras arquiteturas voltadas para classificação, previsão e análise de dados complexos.
   - [`time-series/`](deep-learning/time-series/)  
     Notebooks dedicados à **previsão de séries temporais financeiras** utilizando **redes neurais recorrentes (RNNs)** como LSTM, GRU e SimpleRNN, em comparação com abordagens tradicionais de regressão linear e polinomial.  
-    - [`time_series_forecasting_BTC_models_comparison.ipynb`](deep-learning/time-series/BTC_forecasting_DL_vs_linear.ipynb)  
+    - [`BTC_forecasting_DL_vs_linear`](deep-learning/time-series/BTC_forecasting_DL_vs_linear.ipynb)  
       Previsão do preço de fechamento do **Bitcoin (BTC-USD)** com múltiplos modelos e análise de desempenho.
     
-    - [`time_series_forecasting_AAPL_models_comparison.ipynb`](deep-learning/time-series/AAPL_forecasting_DL_vs_linear.ipynb)  
+    - [`AAPL_forecasting_DL_vs_linear`](deep-learning/time-series/AAPL_forecasting_DL_vs_linear.ipynb)  
       Estudo semelhante focado nas ações da **Apple (AAPL)** com os mesmos modelos preditivos.
