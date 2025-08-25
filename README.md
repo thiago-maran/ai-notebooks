@@ -30,10 +30,21 @@ Este repositório reúne uma coleção de notebooks de **Inteligência Artificia
 
 - [`deep-learning/`](deep-learning/)  
   Projetos com foco em **redes neurais profundas**, aplicadas a diferentes domínios como **visão computacional (CNNs)**, **séries temporais (LSTM, GRU)** e outras arquiteturas voltadas para classificação, previsão e análise de dados complexos.
+
   - [`time-series/`](deep-learning/time-series/)  
     Notebooks dedicados à **previsão de séries temporais financeiras** utilizando **redes neurais recorrentes (RNNs)** como LSTM, GRU e SimpleRNN, em comparação com abordagens tradicionais de regressão linear e polinomial.  
+
     - [`BTC_forecasting_DL_vs_linear`](deep-learning/time-series/BTC_forecasting_DL_vs_linear.ipynb)  
       Previsão do preço de fechamento do **Bitcoin (BTC-USD)** com múltiplos modelos e análise de desempenho.
     
     - [`AAPL_forecasting_DL_vs_linear`](deep-learning/time-series/AAPL_forecasting_DL_vs_linear.ipynb)  
       Estudo semelhante focado nas ações da **Apple (AAPL)** com os mesmos modelos preditivos.
+
+  - [`multilayer-perceptron/`](deep-learning/multilayer-perceptron/)  
+      - [`fraud-detection-mlp-vs-transformer/`](deep-learning/multilayer-perceptron/fraud-detection-mlp-vs-transformer/)  
+        Comparação de **MLP** (rede neural densa) e **Transformer** com baseline em **Regressão Logística** para **detecção de fraudes**.  
+        Ênfase em arquiteturas de **deep learning** para dados tabulares.  
+        Discussão sobre trade-offs: interpretabilidade, custo computacional e desempenho.  
+        Visualizações completas: ROC, Precision-Recall, matrizes de confusão e gráficos comparativos.  
+        Uso de técnicas de balanceamento: **SMOTE** e **SMOTEENN**.  
+
